@@ -1,0 +1,68 @@
+animate(main.sprite, 1, 3, counter);
+        counter += 1;
+        if (counter == 3) {
+           counter = 0;
+        }
+
+switch(y) {
+      case 1:
+        animate(main.sprite, 1, 3, counter);
+        counter += 1;
+        if (counter == 3) {
+           counter = 0;
+        }
+      case -1:
+        animate(main.sprite, 5, 7, counter);
+        counter += 1;
+        if (counter == 3) {
+           counter = 0;
+        }
+    switch(x) {
+      case 1:
+        animate(main.sprite, 11, 13, counter);
+        counter += 1;
+        if (counter == 3) {
+           counter = 0;
+        }
+      case -1:
+        animate(main.sprite, 8, 10, counter);
+          counter += 1;
+          if (counter == 3) {
+             counter = 0;
+          }
+   }
+  }
+
+
+//////////////////////////////
+
+    counter += 1;
+    main.animate(main.sprite, 1, counter);
+    if (counter == 2) {
+       counter = 0;
+    }
+
+    counter += 1;
+    main.animate(main.sprite, 5, counter);
+    if (counter == 2) {
+       counter = 0;
+    }
+
+    main.animate(main.sprite, 11, counter);
+    counter += 1;
+    if (counter == 2) {
+       counter = 0;
+    }
+
+    main.animate(main.sprite, 8, counter);
+    counter += 1;
+    if (counter == 2) {
+       counter = 0;
+    }
+
+
+
+  if (keyPressed == false) {
+     main.stand(dir);
+     
+  }

@@ -1,0 +1,12 @@
+append(projx, mouseX);
+    append(projy, mouseY);
+    for (int i = 0; i < projx.length; i++) {
+      projy[i] --; 
+      line(projx[i], projy[i], projx[i], projy[i]+10);
+    }
+
+projx = new float[height];
+projy = new float[height];
+
+float[] projx;
+float[] projy;
