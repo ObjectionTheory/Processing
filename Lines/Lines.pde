@@ -1,8 +1,8 @@
-float unit = 50;
+float unit = 7.5;
 float rect_width = 10;
 float rect_corner = 15;
-float pattern_count = 10;
-float speed = 0.1;
+float pattern_count = 2.5;
+float speed = 0.5;
 
 
 void setup() {

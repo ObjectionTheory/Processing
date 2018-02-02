@@ -17,7 +17,7 @@ boolean running = true;
 Slidebar s[];
 
 void setup() {
- size(1920,1080);
+ size(1000, 1000);
  background(255);
  
  cols = floor(width/scl);
@@ -37,7 +37,7 @@ void setup() {
 }
 
 void draw() {
-  //background(0);
+  //background(255);
   //println(frameRate);
   float yoff = 0;
   for (int y = 0; y < rows; y++) {
