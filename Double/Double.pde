@@ -12,7 +12,7 @@ float[] yValues;
 float rConst = 5;
 
 void setup() {
- size(750, 750); 
+ size(1000, 1000); 
  w = width;
  dx = (TWO_PI / period) * xSpacing;
  yValues = new float[250];
