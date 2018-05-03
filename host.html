@@ -1,7 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-  <h1> Hello World! </h1>
-</body>
-</html>
+<script type="text/javascript" src="https://raw.githubusercontent.com/processing-js/processing-js/v1.4.8/processing.min.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+void setup()
+{
+  size(200,200);
+  background(125);
+  fill(255);
+  noLoop();
+  PFont fontA = loadFont("courier");
+  textFont(fontA, 14);  
+}
+
+void draw(){  
+  text("Hello Web!",20,20);
+  println("Hello ErrorLog!");
+}
+</script>
+<canvas id="mycanvas"></canvas>
