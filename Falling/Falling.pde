@@ -1,6 +1,6 @@
 float r_width = 50;
-float r_length = 750;
-float step = 100;
+float r_length = 450;
+float step = 200;
 
 ArrayList<Rect> rects = new ArrayList<Rect>();
 
@@ -23,7 +23,7 @@ void setup() {
 int counter = 0;
 
 void draw() {
-  background (0);
+  background (255);
   noStroke();
   
   if (counter % step == 0) {
@@ -32,7 +32,7 @@ void draw() {
   }
   
   if ((counter + r_width) % step == 0) {
-    Rect rect = new Rect(0 - 50, -r_width - 50, +10, false);
+    Rect rect = new Rect(width - r_length, -r_width, +10, false);
     rects.add(rect);
   }
   

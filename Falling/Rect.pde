@@ -1,14 +1,14 @@
 
 class Rect {
   float r_width = 50;
-  float r_length = width + 50;
+  float r_length = 450;
   float x, y;
   float differ;
   float speed = random(0, 2);
   float rotation = 0;
   boolean left;
   boolean toDestroy = false;
-  float rotation_speed = 0.25;
+  float rotation_speed = 0.1;
   
   Rect(float x, float y, float differ, boolean left) {
     this.x = x;
